@@ -1,2 +1,5 @@
-package edu.gorilas.targets;public interface Target {
+package edu.gorilas.targets;
+
+public interface Target {
+    void execution(String message);
 }
