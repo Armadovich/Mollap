@@ -48,12 +48,22 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>App</mainClass>
+              <mainClass>edu.gorilas.App</mainClass>
             </manifest>
             <manifestEntries>
               <url>https://github.com/Armadovich/Mollap</url>
             </manifestEntries>
           </archive>
+        </configuration>
+      </plugin>
+      <!-- Maven Compiler Plugin configuration -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
         </configuration>
       </plugin>
     </plugins>
